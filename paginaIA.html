@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>pagina IA</title>
+  <meta content="">
+  <style></style>
+</head>
+<body>
+<center>
+  <h1>
+    Maquina de busca em IA
+  </h1>
+  <h3>Sistema de Produção </h3>
+  <h3 id = 'entrada'></h3>
+  <table id = 'lina'> 
+ 
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th>Iteração</th>
+      <th>Memoria de Trabalho</th>
+      <th>Conjunto conflito</th>
+      <th>Regra Disparada</th>
+    </tr>
+    <tr>
+	
+      <td ><p id = 'iter'></p></td>
+	  <td ><p id = 'inicio'></p></td>
+	  <td ><p id = 'conflito'></p></td>
+	  <td ><p id = 'result'></p></td>
+    </tr>
+  </table>
+  
+  <h3 id='respostas'></h3>
+   <h3 id='regg'></h3>
+  
+  <button onclick="teste()">Anterior</button>
+  <button onclick="proximo()">Proximo</button>
+  <button onclick="resetar()">Resetar</button>
+   <br>
+   <h3>Regras</h3>
+   
+  <table id="regras"></table>
+  
+  
+  
+  <script src="./controle.js"></script>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+  </style>
+</body>
+</center>
+</html>
